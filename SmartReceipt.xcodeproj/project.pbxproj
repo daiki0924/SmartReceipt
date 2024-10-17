@@ -10,6 +10,7 @@
 		531D33222CC08F8B00FD3219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D33212CC08F8B00FD3219 /* AppDelegate.swift */; };
 		531D332B2CC08F8C00FD3219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531D332A2CC08F8C00FD3219 /* Assets.xcassets */; };
 		531D332E2CC08F8C00FD3219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531D332C2CC08F8C00FD3219 /* LaunchScreen.storyboard */; };
+		53483BD02CC16918006F6D0B /* VisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53483BCF2CC16918006F6D0B /* VisionManager.swift */; };
 		536B1DC22CC0914800C5BE8D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DC12CC0914800C5BE8D /* TabBarController.swift */; };
 		536B1DD52CC092C700C5BE8D /* ReceiptListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DD32CC092C700C5BE8D /* ReceiptListViewController.swift */; };
 		536B1DD62CC092C700C5BE8D /* ReceiptListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DD42CC092C700C5BE8D /* ReceiptListViewController.xib */; };
@@ -31,6 +32,7 @@
 		536B1DF62CC0945800C5BE8D /* ScanReceiptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DF42CC0945800C5BE8D /* ScanReceiptViewController.xib */; };
 		536B1DFC2CC141D300C5BE8D /* NavigationBarAppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DFB2CC141D300C5BE8D /* NavigationBarAppearanceManager.swift */; };
 		536B1DFE2CC1422E00C5BE8D /* TabBarAppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DFD2CC1422E00C5BE8D /* TabBarAppearanceManager.swift */; };
+		536B1E012CC1450C00C5BE8D /* ScanCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1E002CC1450C00C5BE8D /* ScanCameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,7 @@
 		531D332A2CC08F8C00FD3219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		531D332D2CC08F8C00FD3219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		531D332F2CC08F8C00FD3219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53483BCF2CC16918006F6D0B /* VisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionManager.swift; sourceTree = "<group>"; };
 		536B1DC12CC0914800C5BE8D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		536B1DD32CC092C700C5BE8D /* ReceiptListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListViewController.swift; sourceTree = "<group>"; };
 		536B1DD42CC092C700C5BE8D /* ReceiptListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptListViewController.xib; sourceTree = "<group>"; };
@@ -62,6 +65,7 @@
 		536B1DF92CC0972800C5BE8D /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		536B1DFB2CC141D300C5BE8D /* NavigationBarAppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarAppearanceManager.swift; sourceTree = "<group>"; };
 		536B1DFD2CC1422E00C5BE8D /* TabBarAppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppearanceManager.swift; sourceTree = "<group>"; };
+		536B1E002CC1450C00C5BE8D /* ScanCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,7 @@
 			children = (
 				536B1DD22CC092AB00C5BE8D /* ViewController */,
 				536B1DD02CC092A000C5BE8D /* ViewModel */,
+				536B1DFF2CC144F900C5BE8D /* View */,
 			);
 			path = ScanReceipt;
 			sourceTree = "<group>";
@@ -321,8 +326,17 @@
 			children = (
 				536B1DFB2CC141D300C5BE8D /* NavigationBarAppearanceManager.swift */,
 				536B1DFD2CC1422E00C5BE8D /* TabBarAppearanceManager.swift */,
+				53483BCF2CC16918006F6D0B /* VisionManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		536B1DFF2CC144F900C5BE8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				536B1E002CC1450C00C5BE8D /* ScanCameraView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,6 +418,7 @@
 				536B1DDE2CC092F200C5BE8D /* CategoryManagementViewModel.swift in Sources */,
 				531D33222CC08F8B00FD3219 /* AppDelegate.swift in Sources */,
 				536B1DC22CC0914800C5BE8D /* TabBarController.swift in Sources */,
+				536B1E012CC1450C00C5BE8D /* ScanCameraView.swift in Sources */,
 				536B1DF22CC0944500C5BE8D /* ScanReceiptViewModel.swift in Sources */,
 				536B1DD52CC092C700C5BE8D /* ReceiptListViewController.swift in Sources */,
 				536B1DDB2CC092E800C5BE8D /* CategoryManagementViewController.swift in Sources */,
@@ -415,6 +430,7 @@
 				536B1DE32CC093E500C5BE8D /* ExpenseAnalysisViewController.swift in Sources */,
 				536B1DE62CC093FE00C5BE8D /* SettingsViewModel.swift in Sources */,
 				536B1DEF2CC0943400C5BE8D /* ReceiptDetailViewController.swift in Sources */,
+				53483BD02CC16918006F6D0B /* VisionManager.swift in Sources */,
 				536B1DD82CC092CF00C5BE8D /* ReceiptListViewModel.swift in Sources */,
 				536B1DFE2CC1422E00C5BE8D /* TabBarAppearanceManager.swift in Sources */,
 			);
@@ -559,11 +575,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 952NHA938Y;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 952NHA938Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SmartReceipt/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "[DEBUG]SmartReceipt";
+				INFOPLIST_KEY_NSCameraUsageDescription = "領収書の読み取りに使用します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -574,6 +594,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = SmartReceipt_dev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -586,11 +608,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 952NHA938Y;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SmartReceipt/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "[DEBUG]SmartReceipt";
+				INFOPLIST_KEY_NSCameraUsageDescription = "領収書の読み取りに使用します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -601,6 +625,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
