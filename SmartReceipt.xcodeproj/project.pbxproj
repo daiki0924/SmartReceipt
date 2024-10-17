@@ -56,6 +56,8 @@
 		536B1DF12CC0944500C5BE8D /* ReceiptScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptScanViewModel.swift; sourceTree = "<group>"; };
 		536B1DF32CC0945800C5BE8D /* ReceiptScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptScanViewController.swift; sourceTree = "<group>"; };
 		536B1DF42CC0945800C5BE8D /* ReceiptScanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptScanViewController.xib; sourceTree = "<group>"; };
+		536B1DF82CC0971B00C5BE8D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		536B1DF92CC0972800C5BE8D /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				531D332A2CC08F8C00FD3219 /* Assets.xcassets */,
 				531D332F2CC08F8C00FD3219 /* Info.plist */,
+				536B1DF72CC0964200C5BE8D /* Config */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -297,6 +300,15 @@
 				536B1DF42CC0945800C5BE8D /* ReceiptScanViewController.xib */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		536B1DF72CC0964200C5BE8D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				536B1DF82CC0971B00C5BE8D /* Debug.xcconfig */,
+				536B1DF92CC0972800C5BE8D /* Release.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -527,6 +539,7 @@
 		};
 		531D33332CC08F8C00FD3219 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536B1DF82CC0971B00C5BE8D /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -544,7 +557,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.kobayashi.SmartReceipt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -554,6 +566,7 @@
 		};
 		531D33342CC08F8C00FD3219 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536B1DF92CC0972800C5BE8D /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -571,7 +584,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.kobayashi.SmartReceipt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

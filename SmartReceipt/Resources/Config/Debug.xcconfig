@@ -1,0 +1,21 @@
+//
+//  Debug.xcconfig
+//  SmartReceipt
+//
+//  Created by Daiki Kobayashi on 2024/10/17.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// アプリ名
+INFOPLIST_KEY_CFBundleDisplayName = [DEBUG]$(TARGET_NAME)
+
+// Bundle Identifier
+PRODUCT_BUNDLE_IDENTIFIER = jp.co.kobayashi.SmartReceipt-debug
+
+// ビルド環境の分岐に使う
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+
+// アプリアイコン
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
