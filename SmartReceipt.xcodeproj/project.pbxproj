@@ -11,24 +11,26 @@
 		531D332B2CC08F8C00FD3219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531D332A2CC08F8C00FD3219 /* Assets.xcassets */; };
 		531D332E2CC08F8C00FD3219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531D332C2CC08F8C00FD3219 /* LaunchScreen.storyboard */; };
 		536B1DC22CC0914800C5BE8D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DC12CC0914800C5BE8D /* TabBarController.swift */; };
-		536B1DD52CC092C700C5BE8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DD32CC092C700C5BE8D /* HomeViewController.swift */; };
-		536B1DD62CC092C700C5BE8D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DD42CC092C700C5BE8D /* HomeViewController.xib */; };
-		536B1DD82CC092CF00C5BE8D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DD72CC092CF00C5BE8D /* HomeViewModel.swift */; };
-		536B1DDB2CC092E800C5BE8D /* ReceiptHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DD92CC092E800C5BE8D /* ReceiptHistoryViewController.swift */; };
-		536B1DDC2CC092E800C5BE8D /* ReceiptHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DDA2CC092E800C5BE8D /* ReceiptHistoryViewController.xib */; };
-		536B1DDE2CC092F200C5BE8D /* ReceiptHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DDD2CC092F200C5BE8D /* ReceiptHistoryViewModel.swift */; };
-		536B1DE02CC093D500C5BE8D /* ExportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DDF2CC093D500C5BE8D /* ExportViewModel.swift */; };
-		536B1DE32CC093E500C5BE8D /* ExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DE12CC093E500C5BE8D /* ExportViewController.swift */; };
-		536B1DE42CC093E500C5BE8D /* ExportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DE22CC093E500C5BE8D /* ExportViewController.xib */; };
-		536B1DE62CC093FE00C5BE8D /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DE52CC093FE00C5BE8D /* SettingViewModel.swift */; };
-		536B1DE92CC0941000C5BE8D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DE72CC0941000C5BE8D /* SettingViewController.swift */; };
-		536B1DEA2CC0941000C5BE8D /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DE82CC0941000C5BE8D /* SettingViewController.xib */; };
+		536B1DD52CC092C700C5BE8D /* ReceiptListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DD32CC092C700C5BE8D /* ReceiptListViewController.swift */; };
+		536B1DD62CC092C700C5BE8D /* ReceiptListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DD42CC092C700C5BE8D /* ReceiptListViewController.xib */; };
+		536B1DD82CC092CF00C5BE8D /* ReceiptListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DD72CC092CF00C5BE8D /* ReceiptListViewModel.swift */; };
+		536B1DDB2CC092E800C5BE8D /* CategoryManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DD92CC092E800C5BE8D /* CategoryManagementViewController.swift */; };
+		536B1DDC2CC092E800C5BE8D /* CategoryManagementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DDA2CC092E800C5BE8D /* CategoryManagementViewController.xib */; };
+		536B1DDE2CC092F200C5BE8D /* CategoryManagementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DDD2CC092F200C5BE8D /* CategoryManagementViewModel.swift */; };
+		536B1DE02CC093D500C5BE8D /* ExpenseAnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DDF2CC093D500C5BE8D /* ExpenseAnalysisViewModel.swift */; };
+		536B1DE32CC093E500C5BE8D /* ExpenseAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DE12CC093E500C5BE8D /* ExpenseAnalysisViewController.swift */; };
+		536B1DE42CC093E500C5BE8D /* ExpenseAnalysisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DE22CC093E500C5BE8D /* ExpenseAnalysisViewController.xib */; };
+		536B1DE62CC093FE00C5BE8D /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DE52CC093FE00C5BE8D /* SettingsViewModel.swift */; };
+		536B1DE92CC0941000C5BE8D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DE72CC0941000C5BE8D /* SettingsViewController.swift */; };
+		536B1DEA2CC0941000C5BE8D /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DE82CC0941000C5BE8D /* SettingsViewController.xib */; };
 		536B1DEC2CC0942200C5BE8D /* ReceiptDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DEB2CC0942200C5BE8D /* ReceiptDetailViewModel.swift */; };
 		536B1DEF2CC0943400C5BE8D /* ReceiptDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DED2CC0943400C5BE8D /* ReceiptDetailViewController.swift */; };
 		536B1DF02CC0943400C5BE8D /* ReceiptDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DEE2CC0943400C5BE8D /* ReceiptDetailViewController.xib */; };
-		536B1DF22CC0944500C5BE8D /* ReceiptScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DF12CC0944500C5BE8D /* ReceiptScanViewModel.swift */; };
-		536B1DF52CC0945800C5BE8D /* ReceiptScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DF32CC0945800C5BE8D /* ReceiptScanViewController.swift */; };
-		536B1DF62CC0945800C5BE8D /* ReceiptScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DF42CC0945800C5BE8D /* ReceiptScanViewController.xib */; };
+		536B1DF22CC0944500C5BE8D /* ScanReceiptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DF12CC0944500C5BE8D /* ScanReceiptViewModel.swift */; };
+		536B1DF52CC0945800C5BE8D /* ScanReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DF32CC0945800C5BE8D /* ScanReceiptViewController.swift */; };
+		536B1DF62CC0945800C5BE8D /* ScanReceiptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536B1DF42CC0945800C5BE8D /* ScanReceiptViewController.xib */; };
+		536B1DFC2CC141D300C5BE8D /* NavigationBarAppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DFB2CC141D300C5BE8D /* NavigationBarAppearanceManager.swift */; };
+		536B1DFE2CC1422E00C5BE8D /* TabBarAppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B1DFD2CC1422E00C5BE8D /* TabBarAppearanceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,26 +40,28 @@
 		531D332D2CC08F8C00FD3219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		531D332F2CC08F8C00FD3219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		536B1DC12CC0914800C5BE8D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		536B1DD32CC092C700C5BE8D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		536B1DD42CC092C700C5BE8D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		536B1DD72CC092CF00C5BE8D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		536B1DD92CC092E800C5BE8D /* ReceiptHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptHistoryViewController.swift; sourceTree = "<group>"; };
-		536B1DDA2CC092E800C5BE8D /* ReceiptHistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptHistoryViewController.xib; sourceTree = "<group>"; };
-		536B1DDD2CC092F200C5BE8D /* ReceiptHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptHistoryViewModel.swift; sourceTree = "<group>"; };
-		536B1DDF2CC093D500C5BE8D /* ExportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportViewModel.swift; sourceTree = "<group>"; };
-		536B1DE12CC093E500C5BE8D /* ExportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportViewController.swift; sourceTree = "<group>"; };
-		536B1DE22CC093E500C5BE8D /* ExportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExportViewController.xib; sourceTree = "<group>"; };
-		536B1DE52CC093FE00C5BE8D /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
-		536B1DE72CC0941000C5BE8D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		536B1DE82CC0941000C5BE8D /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		536B1DD32CC092C700C5BE8D /* ReceiptListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListViewController.swift; sourceTree = "<group>"; };
+		536B1DD42CC092C700C5BE8D /* ReceiptListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptListViewController.xib; sourceTree = "<group>"; };
+		536B1DD72CC092CF00C5BE8D /* ReceiptListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListViewModel.swift; sourceTree = "<group>"; };
+		536B1DD92CC092E800C5BE8D /* CategoryManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManagementViewController.swift; sourceTree = "<group>"; };
+		536B1DDA2CC092E800C5BE8D /* CategoryManagementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryManagementViewController.xib; sourceTree = "<group>"; };
+		536B1DDD2CC092F200C5BE8D /* CategoryManagementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManagementViewModel.swift; sourceTree = "<group>"; };
+		536B1DDF2CC093D500C5BE8D /* ExpenseAnalysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseAnalysisViewModel.swift; sourceTree = "<group>"; };
+		536B1DE12CC093E500C5BE8D /* ExpenseAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseAnalysisViewController.swift; sourceTree = "<group>"; };
+		536B1DE22CC093E500C5BE8D /* ExpenseAnalysisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseAnalysisViewController.xib; sourceTree = "<group>"; };
+		536B1DE52CC093FE00C5BE8D /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		536B1DE72CC0941000C5BE8D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		536B1DE82CC0941000C5BE8D /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		536B1DEB2CC0942200C5BE8D /* ReceiptDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptDetailViewModel.swift; sourceTree = "<group>"; };
 		536B1DED2CC0943400C5BE8D /* ReceiptDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptDetailViewController.swift; sourceTree = "<group>"; };
 		536B1DEE2CC0943400C5BE8D /* ReceiptDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptDetailViewController.xib; sourceTree = "<group>"; };
-		536B1DF12CC0944500C5BE8D /* ReceiptScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptScanViewModel.swift; sourceTree = "<group>"; };
-		536B1DF32CC0945800C5BE8D /* ReceiptScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptScanViewController.swift; sourceTree = "<group>"; };
-		536B1DF42CC0945800C5BE8D /* ReceiptScanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptScanViewController.xib; sourceTree = "<group>"; };
+		536B1DF12CC0944500C5BE8D /* ScanReceiptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanReceiptViewModel.swift; sourceTree = "<group>"; };
+		536B1DF32CC0945800C5BE8D /* ScanReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanReceiptViewController.swift; sourceTree = "<group>"; };
+		536B1DF42CC0945800C5BE8D /* ScanReceiptViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanReceiptViewController.xib; sourceTree = "<group>"; };
 		536B1DF82CC0971B00C5BE8D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		536B1DF92CC0972800C5BE8D /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		536B1DFB2CC141D300C5BE8D /* NavigationBarAppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarAppearanceManager.swift; sourceTree = "<group>"; };
+		536B1DFD2CC1422E00C5BE8D /* TabBarAppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppearanceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		531D33352CC08FE500FD3219 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
+				536B1DFA2CC141BD00C5BE8D /* Managers */,
 				531D33212CC08F8B00FD3219 /* AppDelegate.swift */,
 				536B1DBD2CC0905300C5BE8D /* ViewControllers */,
 			);
@@ -129,24 +134,23 @@
 			children = (
 				536B1DC52CC0920500C5BE8D /* TabBar */,
 				536B1DC42CC091DF00C5BE8D /* ReceiptDetail */,
-				536B1DC32CC091D100C5BE8D /* ReceiptScan */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		536B1DBE2CC0907200C5BE8D /* Home */ = {
+		536B1DBE2CC0907200C5BE8D /* ReceiptList */ = {
 			isa = PBXGroup;
 			children = (
 				536B1DC02CC0907E00C5BE8D /* ViewController */,
 				536B1DBF2CC0907800C5BE8D /* ViewModel */,
 			);
-			path = Home;
+			path = ReceiptList;
 			sourceTree = "<group>";
 		};
 		536B1DBF2CC0907800C5BE8D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				536B1DD72CC092CF00C5BE8D /* HomeViewModel.swift */,
+				536B1DD72CC092CF00C5BE8D /* ReceiptListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -154,19 +158,19 @@
 		536B1DC02CC0907E00C5BE8D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				536B1DD32CC092C700C5BE8D /* HomeViewController.swift */,
-				536B1DD42CC092C700C5BE8D /* HomeViewController.xib */,
+				536B1DD32CC092C700C5BE8D /* ReceiptListViewController.swift */,
+				536B1DD42CC092C700C5BE8D /* ReceiptListViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		536B1DC32CC091D100C5BE8D /* ReceiptScan */ = {
+		536B1DC32CC091D100C5BE8D /* ScanReceipt */ = {
 			isa = PBXGroup;
 			children = (
 				536B1DD22CC092AB00C5BE8D /* ViewController */,
 				536B1DD02CC092A000C5BE8D /* ViewModel */,
 			);
-			path = ReceiptScan;
+			path = ScanReceipt;
 			sourceTree = "<group>";
 		};
 		536B1DC42CC091DF00C5BE8D /* ReceiptDetail */ = {
@@ -182,45 +186,46 @@
 			isa = PBXGroup;
 			children = (
 				536B1DC12CC0914800C5BE8D /* TabBarController.swift */,
-				536B1DBE2CC0907200C5BE8D /* Home */,
-				536B1DC62CC0921C00C5BE8D /* ReceiptHistory */,
-				536B1DC72CC0923C00C5BE8D /* Export */,
-				536B1DC82CC0924900C5BE8D /* Setting */,
+				536B1DBE2CC0907200C5BE8D /* ReceiptList */,
+				536B1DC32CC091D100C5BE8D /* ScanReceipt */,
+				536B1DC62CC0921C00C5BE8D /* CategoryManagement */,
+				536B1DC72CC0923C00C5BE8D /* ExpenseAnalysis */,
+				536B1DC82CC0924900C5BE8D /* Settings */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
 		};
-		536B1DC62CC0921C00C5BE8D /* ReceiptHistory */ = {
+		536B1DC62CC0921C00C5BE8D /* CategoryManagement */ = {
 			isa = PBXGroup;
 			children = (
 				536B1DCA2CC0927200C5BE8D /* ViewController */,
 				536B1DC92CC0926D00C5BE8D /* ViewModel */,
 			);
-			path = ReceiptHistory;
+			path = CategoryManagement;
 			sourceTree = "<group>";
 		};
-		536B1DC72CC0923C00C5BE8D /* Export */ = {
+		536B1DC72CC0923C00C5BE8D /* ExpenseAnalysis */ = {
 			isa = PBXGroup;
 			children = (
 				536B1DCC2CC0928200C5BE8D /* ViewController */,
 				536B1DCB2CC0927D00C5BE8D /* ViewModel */,
 			);
-			path = Export;
+			path = ExpenseAnalysis;
 			sourceTree = "<group>";
 		};
-		536B1DC82CC0924900C5BE8D /* Setting */ = {
+		536B1DC82CC0924900C5BE8D /* Settings */ = {
 			isa = PBXGroup;
 			children = (
 				536B1DCE2CC0928D00C5BE8D /* ViewController */,
 				536B1DCD2CC0928800C5BE8D /* ViewModel */,
 			);
-			path = Setting;
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		536B1DC92CC0926D00C5BE8D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				536B1DDD2CC092F200C5BE8D /* ReceiptHistoryViewModel.swift */,
+				536B1DDD2CC092F200C5BE8D /* CategoryManagementViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -228,8 +233,8 @@
 		536B1DCA2CC0927200C5BE8D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				536B1DD92CC092E800C5BE8D /* ReceiptHistoryViewController.swift */,
-				536B1DDA2CC092E800C5BE8D /* ReceiptHistoryViewController.xib */,
+				536B1DD92CC092E800C5BE8D /* CategoryManagementViewController.swift */,
+				536B1DDA2CC092E800C5BE8D /* CategoryManagementViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -237,7 +242,7 @@
 		536B1DCB2CC0927D00C5BE8D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				536B1DDF2CC093D500C5BE8D /* ExportViewModel.swift */,
+				536B1DDF2CC093D500C5BE8D /* ExpenseAnalysisViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -245,8 +250,8 @@
 		536B1DCC2CC0928200C5BE8D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				536B1DE12CC093E500C5BE8D /* ExportViewController.swift */,
-				536B1DE22CC093E500C5BE8D /* ExportViewController.xib */,
+				536B1DE12CC093E500C5BE8D /* ExpenseAnalysisViewController.swift */,
+				536B1DE22CC093E500C5BE8D /* ExpenseAnalysisViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -254,7 +259,7 @@
 		536B1DCD2CC0928800C5BE8D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				536B1DE52CC093FE00C5BE8D /* SettingViewModel.swift */,
+				536B1DE52CC093FE00C5BE8D /* SettingsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -262,8 +267,8 @@
 		536B1DCE2CC0928D00C5BE8D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				536B1DE72CC0941000C5BE8D /* SettingViewController.swift */,
-				536B1DE82CC0941000C5BE8D /* SettingViewController.xib */,
+				536B1DE72CC0941000C5BE8D /* SettingsViewController.swift */,
+				536B1DE82CC0941000C5BE8D /* SettingsViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -279,7 +284,7 @@
 		536B1DD02CC092A000C5BE8D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				536B1DF12CC0944500C5BE8D /* ReceiptScanViewModel.swift */,
+				536B1DF12CC0944500C5BE8D /* ScanReceiptViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -296,8 +301,8 @@
 		536B1DD22CC092AB00C5BE8D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				536B1DF32CC0945800C5BE8D /* ReceiptScanViewController.swift */,
-				536B1DF42CC0945800C5BE8D /* ReceiptScanViewController.xib */,
+				536B1DF32CC0945800C5BE8D /* ScanReceiptViewController.swift */,
+				536B1DF42CC0945800C5BE8D /* ScanReceiptViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -309,6 +314,15 @@
 				536B1DF92CC0972800C5BE8D /* Release.xcconfig */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		536B1DFA2CC141BD00C5BE8D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				536B1DFB2CC141D300C5BE8D /* NavigationBarAppearanceManager.swift */,
+				536B1DFD2CC1422E00C5BE8D /* TabBarAppearanceManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,14 +383,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				536B1DDC2CC092E800C5BE8D /* ReceiptHistoryViewController.xib in Resources */,
-				536B1DEA2CC0941000C5BE8D /* SettingViewController.xib in Resources */,
+				536B1DDC2CC092E800C5BE8D /* CategoryManagementViewController.xib in Resources */,
+				536B1DEA2CC0941000C5BE8D /* SettingsViewController.xib in Resources */,
 				536B1DF02CC0943400C5BE8D /* ReceiptDetailViewController.xib in Resources */,
 				531D332E2CC08F8C00FD3219 /* LaunchScreen.storyboard in Resources */,
 				531D332B2CC08F8C00FD3219 /* Assets.xcassets in Resources */,
-				536B1DE42CC093E500C5BE8D /* ExportViewController.xib in Resources */,
-				536B1DF62CC0945800C5BE8D /* ReceiptScanViewController.xib in Resources */,
-				536B1DD62CC092C700C5BE8D /* HomeViewController.xib in Resources */,
+				536B1DE42CC093E500C5BE8D /* ExpenseAnalysisViewController.xib in Resources */,
+				536B1DF62CC0945800C5BE8D /* ScanReceiptViewController.xib in Resources */,
+				536B1DD62CC092C700C5BE8D /* ReceiptListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,20 +401,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				536B1DDE2CC092F200C5BE8D /* ReceiptHistoryViewModel.swift in Sources */,
+				536B1DDE2CC092F200C5BE8D /* CategoryManagementViewModel.swift in Sources */,
 				531D33222CC08F8B00FD3219 /* AppDelegate.swift in Sources */,
 				536B1DC22CC0914800C5BE8D /* TabBarController.swift in Sources */,
-				536B1DF22CC0944500C5BE8D /* ReceiptScanViewModel.swift in Sources */,
-				536B1DD52CC092C700C5BE8D /* HomeViewController.swift in Sources */,
-				536B1DDB2CC092E800C5BE8D /* ReceiptHistoryViewController.swift in Sources */,
+				536B1DF22CC0944500C5BE8D /* ScanReceiptViewModel.swift in Sources */,
+				536B1DD52CC092C700C5BE8D /* ReceiptListViewController.swift in Sources */,
+				536B1DDB2CC092E800C5BE8D /* CategoryManagementViewController.swift in Sources */,
 				536B1DEC2CC0942200C5BE8D /* ReceiptDetailViewModel.swift in Sources */,
-				536B1DE92CC0941000C5BE8D /* SettingViewController.swift in Sources */,
-				536B1DF52CC0945800C5BE8D /* ReceiptScanViewController.swift in Sources */,
-				536B1DE02CC093D500C5BE8D /* ExportViewModel.swift in Sources */,
-				536B1DE32CC093E500C5BE8D /* ExportViewController.swift in Sources */,
-				536B1DE62CC093FE00C5BE8D /* SettingViewModel.swift in Sources */,
+				536B1DE92CC0941000C5BE8D /* SettingsViewController.swift in Sources */,
+				536B1DFC2CC141D300C5BE8D /* NavigationBarAppearanceManager.swift in Sources */,
+				536B1DF52CC0945800C5BE8D /* ScanReceiptViewController.swift in Sources */,
+				536B1DE02CC093D500C5BE8D /* ExpenseAnalysisViewModel.swift in Sources */,
+				536B1DE32CC093E500C5BE8D /* ExpenseAnalysisViewController.swift in Sources */,
+				536B1DE62CC093FE00C5BE8D /* SettingsViewModel.swift in Sources */,
 				536B1DEF2CC0943400C5BE8D /* ReceiptDetailViewController.swift in Sources */,
-				536B1DD82CC092CF00C5BE8D /* HomeViewModel.swift in Sources */,
+				536B1DD82CC092CF00C5BE8D /* ReceiptListViewModel.swift in Sources */,
+				536B1DFE2CC1422E00C5BE8D /* TabBarAppearanceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

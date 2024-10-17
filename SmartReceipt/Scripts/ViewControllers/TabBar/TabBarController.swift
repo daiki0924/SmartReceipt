@@ -14,27 +14,36 @@ final class TabBarController: UITabBarController {
     }
     
     private func configureViewControllers() {
-        let homeViewController = HomeViewController()
-        let naviHome = UINavigationController(rootViewController: homeViewController)
-        naviHome.tabBarItem = UITabBarItem(title: "ホーム", image: UIImage(systemName: ""), tag: 0)
+        // 領収書一覧
+        let receiptListViewController = ReceiptListViewController()
+        let naviReceiptList = UINavigationController(rootViewController: receiptListViewController)
+        naviReceiptList.tabBarItem = UITabBarItem(title: "一覧", image: UIImage(systemName: "list.bullet.rectangle"), tag: 0)
         
-        let receiptHistoryViewController = ReceiptHistoryViewController()
-        let naviReceiptHistory = UINavigationController(rootViewController: receiptHistoryViewController)
-        naviReceiptHistory.tabBarItem = UITabBarItem(title: "履歴", image: UIImage(systemName: ""), tag: 1)
+        // 領収書スキャン
+        let scanReceiptViewController = ScanReceiptViewController()
+        scanReceiptViewController.tabBarItem = UITabBarItem(title: "スキャン", image: UIImage(systemName: "camera.fill"), tag: 1)
         
-        let exportViewController = ExportViewController()
-        let naviExport = UINavigationController(rootViewController: exportViewController)
-        naviExport.tabBarItem = UITabBarItem(title: "出力", image: UIImage(systemName: ""), tag: 2)
+        // カテゴリ管理
+        let categoryManagementViewController = CategoryManagementViewController()
+        let naviCategoryManagement = UINavigationController(rootViewController: categoryManagementViewController)
+        naviCategoryManagement.tabBarItem = UITabBarItem(title: "カテゴリ", image: UIImage(systemName: "folder.fill"), tag: 2)
         
-        let settingViewController = SettingViewController()
-        let naviSetting = UINavigationController(rootViewController: settingViewController)
-        naviSetting.tabBarItem = UITabBarItem(title: "設定", image: UIImage(systemName: ""), tag: 3)
+        // 分析
+        let expenseAnalysisViewController = ExpenseAnalysisViewController()
+        let naviExpenseAnalysis = UINavigationController(rootViewController: expenseAnalysisViewController)
+        naviExpenseAnalysis.tabBarItem = UITabBarItem(title: "分析", image: UIImage(systemName: "chart.bar.fill"), tag: 3)
+        
+        // 設定
+        let settingsViewController = SettingsViewController()
+        let naviSettings = UINavigationController(rootViewController: settingsViewController)
+        naviSettings.tabBarItem = UITabBarItem(title: "設定", image: UIImage(systemName: "gearshape.fill"), tag: 4)
         
         viewControllers = [
-            naviHome,
-            naviReceiptHistory,
-            naviExport,
-            naviSetting,
+            naviReceiptList,
+            scanReceiptViewController,
+            naviCategoryManagement,
+            naviExpenseAnalysis,
+            naviSettings
         ]
     }
 }
