@@ -35,8 +35,8 @@ final class VisionManager {
         }
         
         let recognizedStrings = observations.compactMap { observation in
-            // topCandidates(1) は認識されたテキスト文字列の1つだけ取り出す。
-            // 1つだけと指定しても配列型で返されるため firstが必要
+            // topCandidates(1)・・・読み取った文字の解釈で1番信頼度の高い文字列だけ取得する
+            // topCandidates(1)で1を指定しているため1つの結果のみ取得できるが配列で帰ってくるためfirstで絞っている
             return observation.topCandidates(1).first?.string
         }
         
